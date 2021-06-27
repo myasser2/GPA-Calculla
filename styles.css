@@ -1,0 +1,41 @@
+body{background:#ffffff    ;color: #0000FF;
+
+}
+.wrapper{max-width:90%; margin: 0 auto;}
+h1{text-align: center;margin: 30px;}
+table{margin-top:30px}
+.display-none{display: none;}
+tbody td{text-transform: uppercase;}
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+body{ min-height:100vh; margin:0; position:relative; }
+header{ min-height:50px; background:lightcyan; }
+footer{ background:PapayaWhip; }
+
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; 
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
